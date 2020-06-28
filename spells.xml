@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="spells.xslt"?>
+
+<Cards>
+	<Spells xmlns="http://www.w3schools.com"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://www.w3schools.com spells.xsd">>
+		<Spell img="img/cards/spells/FireBallCard.png">
+			<Title>Fireball</Title>
+			<Description>Annnnnd... Fireball. Incinerates a small area, dealing high damage. Reduced damage to Crown Towers.</Description>
+			<Statistics>
+				<Cost>4</Cost>
+				<Rarity>Rare</Rarity>
+				<Radius>2.5</Radius>
+				<Target>Air and Ground</Target>
+			</Statistics>
+		</Spell>
+
+		<Spell img="img/cards/spells/FreezeCard.png">
+			<Title>Freeze</Title>
+			<Description>Freezes troops and buildings, making them unable to move or attack. Everybody chill.</Description>
+			<Statistics>
+				<Cost>4</Cost>
+				<Rarity>Epic</Rarity>
+				<Radius>3</Radius>
+				<Target>Air and Ground</Target>
+			</Statistics>
+		</Spell>
+
+		<Spell img="img/cards/spells/TheLogCard.png">
+			<Title>The Log</Title>
+			<Description>A spilt bottle of Rage turned an innocent tree trunk into 'The Log'. Now, it seeks revenge by crushing anything in its path!</Description>
+			<Statistics>
+				<Cost>2</Cost>
+				<Rarity>Legendary</Rarity>
+				<Target>Ground</Target>
+				<Width>3.9</Width>
+				<Range>11.1</Range>
+			</Statistics>
+		</Spell>
+
+		<Spell img="img/cards/spells/GoblinBarrelCard.png">
+			<Title>Goblin Barrel</Title>
+			<Description>Spawns three Goblins anywhere on the Arena. It's going to be a thrilling ride, boys!</Description>
+			<Statistics>
+				<Cost>3</Cost>
+				<Rarity>Epic</Rarity>
+				<Radius>1.5</Radius>
+				<Target>Ground</Target>
+				<Count>x3</Count>
+			</Statistics>
+		</Spell>
+
+		<Spell img="img/cards/spells/RocketCard.png">
+			<Title>Rocket</Title>
+			<Description>Deals high damage to a small area. Looks really awesome doing it. Reduced damage to Crown Towers.</Description>
+			<Statistics>
+				<Cost>6</Cost>
+				<Rarity>Rare</Rarity>
+				<Radius>2</Radius>
+				<Target>Air and Ground</Target>
+			</Statistics>
+		</Spell>
+
+		<Spell img="img/cards/spells/LightningCard.png">
+			<Title>Lightning</Title>
+			<Description>Bolts of lightning hit up to 3 enemy troops or buildings with the most hitpoints in the target area. Reduced damage to Crown Towers.</Description>
+			<Statistics>
+				<Cost>6</Cost>
+				<Rarity>Epic</Rarity>
+				<Duration>1.5sec</Duration>
+				<Radius>3</Radius>
+				<Target>Air and Ground</Target>
+				<StunDuration>0.5sec</StunDuration>
+				<Count>x3</Count>
+			</Statistics>
+		</Spell>
+
+		<Spell img="img/cards/spells/MirrorCard.png">
+			<Title>Mirror</Title>
+			<Description>Mirrors your last card played for +1 Elixir</Description>
+			<Statistics>
+				<Cost>4</Cost>
+				<Rarity>Epic</Rarity>
+			</Statistics>
+		</Spell>
+
+		<Spell img="img/cards/spells/ArrowsCard.png">
+			<Title>Arrow</Title>
+			<Description>Arrows pepper a large area damaging everyone hit. Reduced damage to Crown Towers.</Description>
+			<Statistics>
+				<Cost>3</Cost>
+				<Rarity>Common</Rarity>
+				<Radius>4</Radius>
+				<Target>Air and Ground</Target>
+			</Statistics>
+		</Spell>
+
+		<Spell img="img/cards/spells/PoisonCard.png">
+			<Title>Poison</Title>
+			<Description>Covers the target area in a sticky toxin, damaging and slowing down troops and buildings. Yet somehow leaves the grass green and healthy. Go figure!</Description>
+			<Statistics>
+				<Cost>4</Cost>
+				<Rarity>Epic</Rarity>
+				<Radius>3.5</Radius>
+				<Target>Air and Ground</Target>
+				<Duration>8 sec</Duration>
+			</Statistics>
+		</Spell>
+
+		<Spell img="img/cards/spells/ZapCard.png">
+			<Title>Zap</Title>
+			<Description>Zaps enemies, briefly stunning them and dealing damage inside a small radius. Reduced damage to Crown Towers.</Description>
+			<Statistics>
+				<Cost>1</Cost>
+				<Rarity>Common</Rarity>
+				<Radius>2.5</Radius>
+				<StunDuration>0.5 sec</StunDuration>
+				<Target>Air and Ground</Target>
+			</Statistics>
+		</Spell>
+
+		<Spell img="img/cards/spells/RageCard.png">
+			<Title>Rage</Title>
+			<Description>Increases troop movement and attack speed by 40%. Troop buildings and summoners deploy troops faster. Chaaarge!</Description>
+			<Statistics>
+				<Cost>3</Cost>
+				<Rarity>Epic</Rarity>
+				<Radius>5</Radius>
+				<Boost>+35%</Boost>
+			</Statistics>
+		</Spell>
+	</Spells>
+</Cards>

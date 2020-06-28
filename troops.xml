@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="troops.xslt"?>
+
+<Cards>
+	<Troops xmlns="http://www.w3schools.com"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.w3schools.com troops.xsd">
+		<Troop>
+			<Title>Mega Knight</Title>
+			<Description>He lands with the force of 1,000 mustaches, then jumps from one foe to the next dealing huge area damage. Stand aside!</Description>
+			<Statistics>
+				<Cost>7</Cost>
+				<Hitspeed>1.8 sec</Hitspeed>
+				<Speed>Medium</Speed>
+				<DeployTime>1 sec</DeployTime>
+				<Range>Melee</Range>
+				<Target>Ground</Target>
+				<Rarity>Legendary</Rarity>
+			</Statistics>
+		</Troop>
+
+		<Troop>
+			<Title>Archers</Title>
+			<Description>A pair of unarmored ranged attackers. They'll help you with ground and air unit attacks, but you're on your own with coloring your hair.</Description>
+			<Statistics>
+				<Cost>3</Cost>
+				<Hitspeed>1.8 sec</Hitspeed>
+				<Speed>Medium</Speed>
+				<DeployTime>1 sec</DeployTime>
+				<Range>Melee</Range>
+				<Target>Ground</Target>
+				<Rarity>Common</Rarity>
+			</Statistics>
+		</Troop>
+
+		<Troop>
+			<Title>Baby Dragon</Title>
+			<Description>Flying troop that deals area damage. Baby dragons hatch cute, hungry and ready for a barbeque.</Description>
+			<Statistics>
+				<Cost>4</Cost>
+				<Hitspeed>1.8 sec</Hitspeed>
+				<Speed>Medium</Speed>
+				<DeployTime>1 sec</DeployTime>
+				<Range>Melee</Range>
+				<Target>Ground</Target>
+				<Rarity>Epic</Rarity>
+			</Statistics>
+		</Troop>
+
+		<Troop>
+			<Title>Balloon</Title>
+			<Description>As pretty as they are, you won't want a parade of THESE balloons showing up on the horizon. Drops powerful bombs and when shot down, crashes dealing area damage.</Description>
+			<Statistics>
+				<Cost>5</Cost>
+				<Hitspeed>1.8 sec</Hitspeed>
+				<Speed>Medium</Speed>
+				<DeployTime>1 sec</DeployTime>
+				<Range>Melee</Range>
+				<Target>Ground</Target>
+				<Rarity>Epic</Rarity>
+			</Statistics>
+		</Troop>
+
+		<Troop>
+			<Title>Barbarians</Title>
+			<Description>A horde of melee attackers with mean mustaches and even meaner tempers.</Description>
+			<Statistics>
+				<Cost>5</Cost>
+				<Hitspeed>1.8 sec</Hitspeed>
+				<Speed>Medium</Speed>
+				<DeployTime>1 sec</DeployTime>
+				<Range>Melee</Range>
+				<Target>Ground</Target>
+				<Rarity>Common</Rarity>
+			</Statistics>
+		</Troop>
+
+		<Troop>
+			<Title>Bomber</Title>
+			<Description>Small, lightly protected skeleton that throws bombs. Deals damage that can wipe out a swarm of enemies.</Description>
+			<Statistics>
+				<Cost>3</Cost>
+				<Hitspeed>1.8 sec</Hitspeed>
+				<Speed>Medium</Speed>
+				<DeployTime>1 sec</DeployTime>
+				<Range>Melee</Range>
+				<Target>Ground</Target>
+				<Rarity>Common</Rarity>
+			</Statistics>
+		</Troop>
+
+		<Troop>
+			<Title>Bowler</Title>
+			<Description>This big dude digs the simple things in life - Dark Elixir drinks and throwing rocks. His massive boulders bounce off their target, landing behind for a double strike!</Description>
+			<Statistics>
+				<Cost>4</Cost>
+				<Hitspeed>1.8 sec</Hitspeed>
+				<Speed>Medium</Speed>
+				<DeployTime>1 sec</DeployTime>
+				<Range>Melee</Range>
+				<Target>Ground</Target>
+				<Rarity>Epic</Rarity>
+			</Statistics>
+		</Troop>
+
+		<Troop>
+			<Title>Dark Prince</Title>
+			<Description>The Dark Prince deals area damage and lets his spiked club do the talking for him - because when he does talk, it sounds like he has a bucket on his head.</Description>
+			<Statistics>
+				<Cost>4</Cost>
+				<Hitspeed>1.8 sec</Hitspeed>
+				<Speed>Medium</Speed>
+				<DeployTime>1 sec</DeployTime>
+				<Range>Melee</Range>
+				<Target>Ground</Target>
+				<Rarity>Epic</Rarity>
+			</Statistics>
+		</Troop>
+
+		<Troop>
+			<Title>Fire Spirits</Title>
+			<Description>These three Fire Spirits are on a kamikaze mission to give you a warm hug. It'd be adorable if they weren't on fire.</Description>
+			<Statistics>
+				<Cost>2</Cost>
+				<Hitspeed>1.8 sec</Hitspeed>
+				<Speed>Medium</Speed>
+				<DeployTime>1 sec</DeployTime>
+				<Range>Melee</Range>
+				<Target>Ground</Target>
+				<Rarity>Common</Rarity>
+			</Statistics>
+		</Troop>
+
+		<Troop>
+			<Title>Giant</Title>
+			<Description>Slow but durable, only attacks buildings. A real one-man wrecking crew!</Description>
+			<Statistics>
+				<Cost>5</Cost>
+				<Hitspeed>1.8 sec</Hitspeed>
+				<Speed>Medium</Speed>
+				<DeployTime>1 sec</DeployTime>
+				<Range>Melee</Range>
+				<Target>Ground</Target>
+				<Rarity>Rare</Rarity>
+			</Statistics>
+		</Troop>
+
+		<Troop>
+			<Title>Giant Skeleton</Title>
+			<Description>The bigger the skeleton, the bigger the bomb. Carries a bomb that blows up when the Giant Skeleton dies.</Description>
+			<Statistics>
+				<Cost>6</Cost>
+				<Hitspeed>1.8 sec</Hitspeed>
+				<Speed>Medium</Speed>
+				<DeployTime>1 sec</DeployTime>
+				<Range>Melee</Range>
+				<Target>Ground</Target>
+				<Rarity>Epic</Rarity>
+			</Statistics>
+		</Troop>
+
+		<Troop>
+			<Title>Goblins</Title>
+			<Description>Three fast, unarmored melee attackers. Small, fast, green and mean!</Description>
+			<Statistics>
+				<Cost>2</Cost>
+				<Hitspeed>1.8 sec</Hitspeed>
+				<Speed>Medium</Speed>
+				<DeployTime>1 sec</DeployTime>
+				<Range>Melee</Range>
+				<Target>Ground</Target>
+				<Rarity>Common</Rarity>
+			</Statistics>
+		</Troop>
+	</Troops>
+</Cards>

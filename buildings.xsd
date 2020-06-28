@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Cards">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Buildings"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Buildings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Building" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Building">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Title" type="xs:string"/>
+        <xs:element name="Description" type="xs:string"/>
+        <xs:element ref="Statistics"/>
+      </xs:sequence>
+      <xs:attribute name="img" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Statistics">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Hitspeed" type="xs:string"/>
+        <xs:element name="DeployTime" type="xs:string"/>
+        <xs:element name="Lifetime" type="xs:string"/>
+        <xs:element name="Range" type="xs:string"/>
+        <xs:element name="Target" type="xs:string"/>
+        <xs:element name="Cost" type="xs:string"/>
+        <xs:element name="Rarity" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="buildings.xslt"?>
+
+<Cards>
+	<Buildings xmlns="http://www.w3schools.com"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://www.w3schools.com buildings.xsd">
+
+		<Building img="img/cards/buildings/BarbarianHutCard.png">
+			<Title>Barbarian Hut</Title>
+			<Description>Troop building that periodically deploys Barbarians to fight the enemy. Time to make the Barbarians.</Description>
+			<Statistics>
+				<Hitspeed>0.4 sec</Hitspeed>
+				<DeployTime>1 sec</DeployTime>
+				<Lifetime>40 sec</Lifetime>
+				<Range>6</Range>
+				<Target>Air and Ground</Target>
+				<Cost>5</Cost>
+				<Rarity>Rare</Rarity>
+			</Statistics>
+		</Building>
+
+		<Building img="img/cards/buildings/BombTowerCard.png">
+			<Title>Bomb Tower</Title>
+			<Description>Defensive building that houses a Bomber. Deals area damage to anything dumb enough to stand near it.</Description>
+			<Statistics>
+				<Hitspeed>0.3 sec</Hitspeed>
+				<DeployTime>4 sec</DeployTime>
+				<Lifetime>40 sec</Lifetime>
+				<Range>11.5</Range>
+				<Target>Ground</Target>
+				<Cost>6</Cost>
+				<Rarity>Rare</Rarity>
+			</Statistics>
+		</Building>
+
+		<Building img="img/cards/buildings/ElixirCollectorCard.png">
+			<Title>Elixir Collector</Title>
+			<Description>You gotta spend Elixir to make Elixir.</Description>
+			<Statistics>
+				<Hitspeed>0.3 sec</Hitspeed>
+				<DeployTime>4 sec</DeployTime>
+				<Lifetime>40 sec</Lifetime>
+				<Range>11.5</Range>
+				<Target>Ground</Target>
+				<Cost>6</Cost>
+				<Rarity>Rare</Rarity>
+			</Statistics>
+		</Building>
+
+		<Building img="img/cards/buildings/FurnaceCard.png">
+			<Title>Furnace</Title>
+			<Description>The Furnace spawns two Fire Spirits at a time. It also makes great brick-oven pancakes.</Description>
+			<Statistics>
+				<Hitspeed>0.3 sec</Hitspeed>
+				<DeployTime>4 sec</DeployTime>
+				<Lifetime>40 sec</Lifetime>
+				<Range>11.5</Range>
+				<Target>Ground</Target>
+				<Cost>6</Cost>
+				<Rarity>Rare</Rarity>
+			</Statistics>
+		</Building>
+
+		<Building img="img/cards/buildings/GoblinHutCard.png">
+			<Title>Goblin Hut</Title>
+			<Description>Building that spawns Spear Goblins. But don't look inside. You don't want to see how they are made.</Description>
+			<Statistics>
+				<Hitspeed>0.3 sec</Hitspeed>
+				<DeployTime>4 sec</DeployTime>
+				<Lifetime>40 sec</Lifetime>
+				<Range>11.5</Range>
+				<Target>Ground</Target>
+				<Cost>6</Cost>
+				<Rarity>Rare</Rarity>
+			</Statistics>
+		</Building>
+
+		<Building img="img/cards/buildings/InfernoTowerCard.png">
+			<Title>Inferno Tower</Title>
+			<Description>Defensive building, roasts targets for damage that increases over time. Burns through even the biggest and toughest enemies!</Description>
+			<Statistics>
+				<Hitspeed>0.3 sec</Hitspeed>
+				<DeployTime>4 sec</DeployTime>
+				<Lifetime>40 sec</Lifetime>
+				<Range>11.5</Range>
+				<Target>Ground</Target>
+				<Cost>6</Cost>
+				<Rarity>Rare</Rarity>
+			</Statistics>
+		</Building>
+
+		<Building img="img/cards/buildings/MortarCard.png">
+			<Title>Mortar</Title>
+			<Description>Defensive building with a long range. Shoots exploding shells that deal area damage. Cannot shoot at targets that get very close!</Description>
+			<Statistics>
+				<Hitspeed>0.3 sec</Hitspeed>
+				<DeployTime>4 sec</DeployTime>
+				<Lifetime>40 sec</Lifetime>
+				<Range>11.5</Range>
+				<Target>Ground</Target>
+				<Cost>6</Cost>
+				<Rarity>Common</Rarity>
+			</Statistics>
+		</Building>
+
+		<Building img="img/cards/buildings/TeslaCard.png">
+			<Title>Tesla</Title>
+			<Description>Defensive building. Whenever it's not zapping the enemy, the power of Electrickery is best kept grounded.</Description>
+			<Statistics>
+				<Hitspeed>0.3 sec</Hitspeed>
+				<DeployTime>4 sec</DeployTime>
+				<Lifetime>40 sec</Lifetime>
+				<Range>11.5</Range>
+				<Target>Ground</Target>
+				<Cost>6</Cost>
+				<Rarity>Common</Rarity>
+			</Statistics>
+		</Building>
+
+		<Building img="img/cards/buildings/CannonCard.png">
+			<Title>Cannon</Title>
+			<Description>Defensive building. Shoots cannonballs with deadly effect, but cannot target flying troops.</Description>
+			<Statistics>
+				<Hitspeed>0.3 sec</Hitspeed>
+				<DeployTime>4 sec</DeployTime>
+				<Lifetime>40 sec</Lifetime>
+				<Range>11.5</Range>
+				<Target>Ground</Target>
+				<Cost>6</Cost>
+				<Rarity>Common</Rarity>
+			</Statistics>
+		</Building>
+
+		<Building img="img/cards/buildings/X-BowCard.png">
+			<Title>X-Bow</Title>
+			<Description>Nice tower you got there. Would be a shame if this X-Bow whittled it down from this side of the arena...</Description>
+			<Statistics>
+				<Hitspeed>0.3 sec</Hitspeed>
+				<DeployTime>4 sec</DeployTime>
+				<Lifetime>40 sec</Lifetime>
+				<Range>11.5</Range>
+				<Target>Ground</Target>
+				<Cost>6</Cost>
+				<Rarity>Epic</Rarity>
+			</Statistics>
+		</Building>
+
+		<Building img="img/cards/buildings/TombstoneCard.png">
+			<Title>Tombstone</Title>
+			<Description>Troop building that periodically deploys Skeletons to fight the enemy. When destroyed, spawns 4 Skeletons. Creepy!</Description>
+			<Statistics>
+				<Hitspeed>0.3 sec</Hitspeed>
+				<DeployTime>4 sec</DeployTime>
+				<Lifetime>40 sec</Lifetime>
+				<Range>11.5</Range>
+				<Target>Ground</Target>
+				<Cost>6</Cost>
+				<Rarity>Rare</Rarity>
+			</Statistics>
+		</Building>	
+	</Buildings>
+</Cards>
